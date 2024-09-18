@@ -14,9 +14,9 @@ export default function App() {
 
   const imageSrc =
     level > 150
-      ? "https://medias.thansettakij.com/uploads/images/md/2024/09/EdjJciUv9Fkm9gjkXeHh.webp?x-image-process=style/md-webp"
+      ? "public/m2.jpg"
       : level > 100
-      ? "https://www.khaosod.co.th/wpapp/uploads/2024/09/Nong-Moo-Deng4548-5.jpg"
+      ? "public/m.jpg"
       : level > 0 
       ? "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZSGobOgNAaRVNvqAD1f9E8yK9T9vIC.jpg"
       : "/smallmoodang.jpg"; 
