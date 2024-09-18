@@ -14,12 +14,13 @@ export default function App() {
 
   const imageSrc =
     level > 150
-      ? "public/m2.jpg"
+      ? "m2.jpg"
       : level > 100
-      ? "public/m.jpg"
+      ? "m.jpg"
       : level > 0 
-      ? "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZSGobOgNAaRVNvqAD1f9E8yK9T9vIC.jpg"
-      : "/smallmoodang.jpg"; 
+      ? "smallmoodang.jpg"
+      : "smallmoodang.jpg";
+
 
   const imageHeight = Math.min(300 + level * 2, 600); 
 
