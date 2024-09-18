@@ -14,9 +14,9 @@ export default function App() {
 
   const imageSrc =
     level > 150
-      ? "m2.jpg"
+      ? "public/m2.jpg"
       : level > 100
-      ? "m.jpg"
+      ? "public/m.jpg"
       : level > 0 
       ? "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZSGobOgNAaRVNvqAD1f9E8yK9T9vIC.jpg"
       : "/smallmoodang.jpg"; 
